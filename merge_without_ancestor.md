@@ -13,7 +13,7 @@ Passo-a-passo para unir um repositório local a um remoto já existente.
     `$ git fetch origin`
 4. fazer o merge permitindo origens divergentes²:  
     `$ git merge --allow-unrelated-histories origin/master`
-    > será solicitado para adicionar uma mensagem ao commit. escreva a mensagem, salve o arquivo e feche.  
+    > Será solicitado para adicionar uma mensagem ao commit. Escreva a mensagem, salve o arquivo e feche.  
 5. enviar para o repositório remoto:  
     `$ git push origin master`
 
