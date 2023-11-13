@@ -6,15 +6,15 @@ Passo-a-passo para unir um repositório local a um remoto já existente.
 
 ## Passo-a-passo  
 
-1. na pasta do projeto local, adicionar o repositório remoto¹:  
+1. Na pasta do projeto local, adicionar o repositório remoto¹:  
     `$ git add origin _URL_REPOSITÓRIO_REMOTO_`
    
-3. buscar as referências do repositório remoto:  
+3. Buscar as referências do repositório remoto:  
     `$ git fetch origin`
-4. fazer o merge permitindo origens divergentes²:  
+4. Fazer o merge permitindo origens divergentes²:  
     `$ git merge --allow-unrelated-histories origin/master`
     > Será solicitado para adicionar uma mensagem ao commit. Escreva a mensagem, salve o arquivo e feche.  
-5. enviar para o repositório remoto:  
+5. Enviar para o repositório remoto:  
     `$ git push origin master`
 
 ## Conclusão
