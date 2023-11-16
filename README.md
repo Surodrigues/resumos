@@ -1,5 +1,5 @@
 
-# Estudos
+# Sobre
 
 Resumos que faço de meus estudos sobre programação.  
 
